@@ -1,0 +1,140 @@
+.tittle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 70px;
+  .title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  button {
+    padding: 10px 20px;
+    border: 2px solid rgb(109, 22, 109);
+    background: none;
+    color: white;
+    border-radius: 10px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+h4 {
+  border: 2px solid rgba(162, 89, 255, 1);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 20px;
+  display: none;
+}
+.person {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(59, 59, 59, 1);
+  width: 250px;
+  height: 260px;
+  padding: 20px;
+  border-radius: 10px;
+  img {
+    width: 100%;
+    max-width: 120px;
+  }
+  h2 {
+    font-size: 22px;
+    color: aliceblue;
+  }
+  p {
+    color: grey;
+    font-size: 16px;
+    span {
+      color: aliceblue;
+    }
+  }
+  h3 {
+    background-color: rgb(113, 106, 106);
+    width: 30px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media (max-width: 640px) {
+  .tittle button {
+    display: none;
+  }
+}
+@media (max-width: 490px) {
+  .person {
+    margin-top: 25px;
+    width: 236px;
+    height: 244px;
+    h3 {
+      font-size: 23px;
+    }
+    p {
+      font-size: 13px;
+    }
+  }
+  .person:nth-child(11) {
+    display: none;
+  }
+  .person:nth-child(7) {
+    display: none;
+  }
+  .person:nth-child(8) {
+    display: none;
+  }
+  .person:nth-child(9) {
+    display: none;
+  }
+  .person:nth-child(10) {
+    display: none;
+  }
+  .person:nth-child(12) {
+    display: none;
+  }
+  h4{
+    display: flex;
+  }
+}
+@media (max-width: 470px) {
+  .tittle {
+    padding-top: 40px;
+    text-align: center;
+  }
+  .box {
+    .person {
+      margin-inline: 50px;
+      width: 220px;
+      height: 217px;
+      padding-top: 6px;
+      img {
+        max-width: 98px;
+      }
+      h3 {
+        font-size: 18px;
+        margin-right: 130px;
+        min-height: 30px;
+      }
+    }
+  }
+}
