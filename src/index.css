@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   /* outline: 1px solid blue; */
+
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: none;
@@ -37,4 +38,6 @@ body {
     max-width: 350px;
     padding: 0;
   }
+}
+#magic img {
 }

@@ -1,0 +1,146 @@
+.container {
+  .join {
+    padding-top: 90px;
+    display: flex;
+    align-items: flex-start;
+    gap: 160px;
+    img {
+      width: 100%;
+      max-width: 430px;
+    }
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    position: relative;
+    h1 {
+      font-size: 33px;
+      font-weight: 400;
+    }
+    p {
+      font-size: 18px;
+      width: 290px;
+    }
+    input {
+      padding: 10px 30px;
+      border-radius: 10px;
+    }
+    button {
+      position: absolute;
+      padding: 10px 30px;
+      border-radius: 10px;
+      background-color: rgba(162, 89, 255, 1);
+      left: 200px;
+      top: 105px;
+      color: white;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    .join {
+      gap: 0;
+      img {
+        max-width: 371px;
+      }
+    }
+    .box {
+      button {
+        left: 183px;
+        top: 144px;
+      }
+      input {
+        // padding: 10px 20px;
+      }
+      h1 {
+        font-size: 29px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+}
+@media (max-width: 770px) {
+  .container {
+    .join {
+      flex-direction: column;
+      align-items: center;
+      margin-inline: 140px;
+      padding-top: 40px;
+      gap: 20px;
+    }
+    .box {
+      button {
+        left: 4px;
+        top: 180px;
+        padding: 10px 80px;
+      }
+    }
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    max-width: 562px;
+    .box {
+      h1 {
+        // font-size: 25px;
+        // width: 120px;
+      }
+      p {
+        width: 248px;
+        font-size: 13px;
+      }
+      button {
+        display: flex;
+      }
+    }
+  }
+}
+@media (max-width: 560px) {
+  .container {
+    width: 100%;
+    .box {
+      max-width: 320px;
+      h1 {
+        font-size: 25px;
+      }
+    }
+  }
+}
+@media (max-width: 530px) {
+  .container {
+    .join {
+      margin-inline: 108px;
+      img {
+        max-width: 240px;
+      }
+    }
+    .box {
+      max-width: 230px;
+      button {
+        top: 183px;
+      }
+      p {
+        width: 180px;
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  .container {
+    .join {
+      margin-inline: 44px;
+    }
+    .box {
+      p {
+        width: 216px;
+      }
+      button {
+        top: 170px;
+      }
+    }
+  }
+}

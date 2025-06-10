@@ -7,6 +7,9 @@ import TrendingPage from "../../page/TrendingPage";
 import PersonPage from "../../page/PersonPage";
 import CategoryPage from "../../page/CategoryPage";
 import DiscoverPage from "../../page/DiscoverPage";
+import MagicPage from "../../page/MagicPage";
+import WorksPage from "../../page/WorksPage";
+import JOinPage from "../../page/JOinPage";
 const Layout = () => {
   return (
     <div className={scss.layout}>
@@ -17,6 +20,9 @@ const Layout = () => {
         <PersonPage />
         <CategoryPage />
         <DiscoverPage />
+        <MagicPage />
+        <WorksPage />
+        <JOinPage />
       </main>
       <Footer />
     </div>
