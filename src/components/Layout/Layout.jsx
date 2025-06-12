@@ -9,7 +9,7 @@ import CategoryPage from "../../page/CategoryPage";
 import DiscoverPage from "../../page/DiscoverPage";
 import MagicPage from "../../page/MagicPage";
 import WorksPage from "../../page/WorksPage";
-import JOinPage from "../../page/JOinPage";
+import JoinPage from "../../page/JOinPage";
 const Layout = () => {
   return (
     <div className={scss.layout}>
@@ -22,7 +22,7 @@ const Layout = () => {
         <DiscoverPage />
         <MagicPage />
         <WorksPage />
-        <JOinPage />
+        <JoinPage />
       </main>
       <Footer />
     </div>
