@@ -9,7 +9,7 @@ import CategoryPage from "../../page/CategoryPage";
 import DiscoverPage from "../../page/DiscoverPage";
 import MagicPage from "../../page/MagicPage";
 import WorksPage from "../../page/WorksPage";
-import JoinPage from "../../page/JOinPage";
+import JoinPage from "../../page/JoinPage";
 const Layout = () => {
   return (
     <div className={scss.layout}>
