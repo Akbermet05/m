@@ -67,8 +67,8 @@
   .container {
     .join {
       flex-direction: column;
-      align-items: center;
-      margin-inline: 140px;
+      // align-items: center;
+      // margin-inline: 140px;
       padding-top: 40px;
       gap: 20px;
     }
@@ -113,7 +113,7 @@
 @media (max-width: 530px) {
   .container {
     .join {
-      margin-inline: 108px;
+      // margin-inline: 108px;
       img {
         max-width: 240px;
       }
@@ -132,7 +132,7 @@
 @media (max-width: 450px) {
   .container {
     .join {
-      margin-inline: 44px;
+      // margin-inline: 44px;
     }
     .box {
       p {
