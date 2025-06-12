@@ -29,12 +29,14 @@
   }
 }
 @media (max-width: 770px) {
-  .works {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .title{
-    margin-inline: 30px;
+  .container {
+    .works {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .title {
+      padding-left: 40px;
+    }
   }
 }
 @media (max-width: 640px) {
