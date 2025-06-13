@@ -8,7 +8,7 @@ const DiscoverPage = () => {
     <div className={scss.container}>
       <div className="container">
         <div className={scss.box}>
-          <div className="l">
+          <div className={scss.title}>
             <h1>Discover More NFTs</h1>
             <p>Explore new trending NFTs</p>
           </div>

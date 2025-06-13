@@ -27,7 +27,9 @@ const Footer = () => {
               <button>Subscribe</button>
             </div>
           </div>
-          <p style={{paddingTop:'30px'}}>Ⓒ NFT Market. Use this template freely.</p>
+          <p style={{ paddingTop: "20px", paddingLeft:'20px' }}>
+            Ⓒ NFT Market. Use this template freely.
+          </p>
         </div>
       </div>
     </footer>

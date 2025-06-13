@@ -96,11 +96,12 @@
 @media (max-width: 470px) {
   .container {
     .footer {
-      margin-inline: 20px;
+      align-items: center;
+      // margin-inline: 20px;
     }
     .block {
       button {
-        right: 163px;
+        right: 93px;
       }
     }
   }

@@ -113,28 +113,34 @@ h4 {
     display: none;
   }
   h4 {
-    display: flex;
+    // display: flex;
   }
 }
 @media (max-width: 470px) {
-  .tittle {
-    padding-top: 40px;
-    // margin-inline: 50px;
-    // text-align: center;
-  }
-  .box {
-    .person {
-      // margin-inline: 50px;
-      width: 220px;
-      height: 217px;
-      padding-top: 6px;
-      img {
-        max-width: 98px;
-      }
-      h3 {
-        font-size: 18px;
-        margin-right: 130px;
-        min-height: 30px;
+  .container {
+    margin-inline: 60px;
+    .tittle {
+      padding-top: 40px;
+      text-align: center;
+        // margin-inline: 10px;
+
+    }
+    .box {
+      .person {
+        margin-inline: 50px;
+        width: 220px;
+        height: 217px;
+        padding-top: 6px;
+        display: flex;
+        align-items: center;
+        img {
+          max-width: 98px;
+        }
+        h3 {
+          font-size: 18px;
+          margin-right: 130px;
+          min-height: 30px;
+        }
       }
     }
   }

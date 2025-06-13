@@ -88,11 +88,14 @@
 @media (max-width: 474px) {
   .container {
     .mainWelcome {
+      align-items: center;
       padding-top: 10px;
-      // margin-inline: 20px;
+      .welcom{
+        align-items: center;
+      }
       .welcom h1 {
         font-size: 30px;
-        // width: 270px;
+        width: 310px;
       }
       .mainImage {
         max-width: 300px;

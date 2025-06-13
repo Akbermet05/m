@@ -46,7 +46,7 @@ h3 {
     .box {
       .animals,
       .image {
-        max-width: 270px;
+        max-width: 297px;
       }
     }
   }
@@ -68,11 +68,15 @@ h3 {
   }
 }
 @media (max-width: 470px) {
-  .animals {
-    // margin-inline: 40px;
-    gap: 10px;
-  }
-  .trending_title {
-    text-align: center;
+  .container {
+    margin-inline: 60px;
+    .box {
+      align-items: center;
+    }
+    .trending_title {
+      h1 {
+        font-size: 26px;
+      }
+    }
   }
 }

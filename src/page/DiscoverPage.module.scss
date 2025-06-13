@@ -58,11 +58,18 @@
   }
 }
 @media (max-width: 470px) {
-  .box,
   .block {
-    // margin-inline: 50px;
+    margin-inline: 60px;
+
     .btn {
       display: flex;
+      margin-left: 60px;
+    }
+  }
+  .box {
+    margin-inline: 30px;
+    .title {
+      text-align: center;
     }
   }
 }

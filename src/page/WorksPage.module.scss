@@ -34,14 +34,18 @@
       flex-direction: column;
       gap: 20px;
     }
-    .title {
-      // padding-left: 40px;
-    }
   }
 }
 @media (max-width: 640px) {
-  .works img {
-    max-width: 200px;
-    // min-height: 30px;
-  } 
+  .container {
+    .works {
+      align-items: center;
+    }
+     .title{
+      padding-left: 40px;
+     }
+    .works img {
+      max-width: 200px;
+    }
+  }
 }
