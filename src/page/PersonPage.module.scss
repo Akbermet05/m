@@ -113,32 +113,28 @@ h4 {
     display: none;
   }
   h4 {
-    // display: flex;
+    display: flex;
   }
 }
 @media (max-width: 470px) {
   .container {
-    margin-inline: 60px;
     .tittle {
       padding-top: 40px;
-      text-align: center;
-        // margin-inline: 10px;
-
+      padding-left: 30px;
     }
     .box {
+      display: flex;
+
+      align-items: center;
       .person {
-        margin-inline: 50px;
-        width: 220px;
-        height: 217px;
-        padding-top: 6px;
-        display: flex;
-        align-items: center;
+        margin-inline: 30px;
+        width: 100%;
+        max-width: 278px;
         img {
-          max-width: 98px;
+          max-width: 100px;
         }
         h3 {
           font-size: 18px;
-          margin-right: 130px;
           min-height: 30px;
         }
       }

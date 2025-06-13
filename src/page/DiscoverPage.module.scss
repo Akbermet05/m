@@ -59,11 +59,10 @@
 }
 @media (max-width: 470px) {
   .block {
-    margin-inline: 60px;
+    align-items: center;
 
     .btn {
       display: flex;
-      margin-left: 60px;
     }
   }
   .box {

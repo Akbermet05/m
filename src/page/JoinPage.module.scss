@@ -74,7 +74,7 @@
       button {
         left: 4px;
         top: 180px;
-        padding: 10px 80px;
+        padding: 10px 85px;
       }
     }
   }
@@ -98,9 +98,6 @@
     width: 100%;
     .box {
       max-width: 320px;
-      h1 {
-        font-size: 25px;
-      }
     }
   }
 }
@@ -125,8 +122,11 @@
 @media (max-width: 450px) {
   .container {
     .join {
-      align-items: center;
-      // margin-inline: 10px;
+      // align-items: center;
+      margin-inline: 30px;
+      img {
+        max-width: 300px;
+      }
     }
     .box {
       p {

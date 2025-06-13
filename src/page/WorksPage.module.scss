@@ -38,14 +38,15 @@
 }
 @media (max-width: 640px) {
   .container {
-    .works {
-      align-items: center;
+    .works{
+      margin-inline: 30px;
     }
-     .title{
+    .title {
       padding-left: 40px;
-     }
+    }
     .works img {
-      max-width: 200px;
+      max-width: 310px;
+      // height: -120px;
     }
   }
 }

@@ -69,11 +69,14 @@ h3 {
 }
 @media (max-width: 470px) {
   .container {
-    margin-inline: 60px;
     .box {
-      align-items: center;
+      .animals {
+        margin-inline: 30px;
+      }
     }
     .trending_title {
+      margin-inline: 30px;
+
       h1 {
         font-size: 26px;
       }

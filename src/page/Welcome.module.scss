@@ -49,7 +49,7 @@
         max-width: 350px;
         p {
           font-size: 15px;
-          width: 297px;
+          width: 300px;
         }
         h1 {
           font-size: 45px;
@@ -91,7 +91,10 @@
       align-items: center;
       padding-top: 10px;
       .welcom{
+    // text-align: center;
         align-items: center;
+        p{
+        }
       }
       .welcom h1 {
         font-size: 30px;
